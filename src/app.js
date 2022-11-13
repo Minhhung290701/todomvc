@@ -3,7 +3,7 @@ import * as helpers from './helpers';
 import Template from './template';
 import Store from './store';
 import Model from './model';
-import View from './view';
+import View from './view'; 
 
 
 const $on = helpers.$on;
