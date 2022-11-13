@@ -5,10 +5,10 @@
   "scripts": {
     "build": "rollup -c",
     "start": "http-server",
-    "test": "cypress run",
-    "cypress:open": "cypress open --record --key 53e78214-f621-4bf7-965d-cae980408353",
-    "cypress:run": "cypress run --record --key 53e78214-f621-4bf7-965d-cae980408353",
-    "cypress:record": "cypress run --record --record --key 53e78214-f621-4bf7-965d-cae980408353"
+    "test": "cypress run --key 93485558-c45a-4d7c-948b-ed9f74fd490f",
+    "cypress:open": "cypress open --record --key 93485558-c45a-4d7c-948b-ed9f74fd490f",
+    "cypress:run": "cypress run --record --key 93485558-c45a-4d7c-948b-ed9f74fd490f",
+    "cypress:record": "cypress run --record --record --key 93485558-c45a-4d7c-948b-ed9f74fd490f"
   },
   "dependencies": {
     "todomvc-app-css": "2.3.0",
