@@ -5,6 +5,7 @@ import Store from './store';
 import Model from './model';
 import View from './view';
 
+
 const $on = helpers.$on;
 const setView = () => todo.controller.setView(document.location.hash);
 
