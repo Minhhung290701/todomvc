@@ -6,9 +6,9 @@
     "build": "rollup -c",
     "start": "http-server",
     "test": "cypress run",
-    "cypress:open": "cypress open",
-    "cypress:run": "cypress run",
-    "cypress:record": "cypress run --record --key"
+    "cypress:open": "cypress open --record --key 53e78214-f621-4bf7-965d-cae980408353",
+    "cypress:run": "cypress run --record --key 53e78214-f621-4bf7-965d-cae980408353",
+    "cypress:record": "cypress run --record --record --key 53e78214-f621-4bf7-965d-cae980408353"
   },
   "dependencies": {
     "todomvc-app-css": "2.3.0",
